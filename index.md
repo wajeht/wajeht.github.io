@@ -15,6 +15,8 @@ I am a competitive powerlifter who likes to code.
 
 A simple powerlifting attempt selection calculotr that is written in native technoloy. It is designed to take your heaviest lift within 1-2 weeks before the competition, and calculate attempt selection based on that. Nothing more, nothing less!
 
+I've built this app to intend to save some money for athlethes that could not afford to hire coach for meet day handling. As well as for some of the athlete that coach.
+
 *   Calcualte wilks and total
 *   Multi-selection of attemps based on how strong your are on meet day
 
@@ -36,7 +38,7 @@ This is a school project I did with me and five of my other class mates where we
 *   Enables users to find information on registered human services as well as emergency shelters 
 *   Used .NET to implement CRUD operations for the application.
 
-[View on Github](https://github.com/Aldarraji/2019amarilloClass)
+[View on Aldarraji's Github](https://github.com/Aldarraji/2019amarilloClass)
 
 
 

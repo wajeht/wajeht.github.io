@@ -12,5 +12,8 @@ A simple powerlifting attempt selection calculotr that is written in nantive tec
 *   Calcualte wilks and total
 *   Multi-selection of attemps based on how strong your are on meet day
 
+[Web](https://github.com/wajeht/web_attempt_calculator) [iOS](https://github.com/wajeht/ios_attempt_calculator) [Android](https://github.com/wajeht/android_attempt_calculator) 
+
+
 
 

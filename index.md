@@ -2,15 +2,10 @@
 
 I am a competitive powerlifter who likes to code.
 
-### Web: Attempt Calculator
-* * *
 
 
-### iOS: Attempt Calculator
-* * *
 
+### Attempt Calculator
+***
 
-### iOS: Attempt Calculator
-
-* * *
 

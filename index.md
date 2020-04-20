@@ -5,7 +5,8 @@ I am a competitive powerlifter who likes to code.
 
 
 
-### Attempt Calculator
+### Attempt Calculator (Web,iOS, Android)
 ***
+
 
 

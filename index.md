@@ -33,8 +33,8 @@ View on Github: [Web](https://github.com/wajeht/web_attempt_calculator)  [iOS](h
 
 This is a school project I did with me and five of my other class mates where we develped  the human services and emergency shelter system named CareAmarillo in terms of the needs of the human service users. The CareAmarillo System will enable system users to find information on registered human services as well as emergency shelters.
 
-*   Calcualte wilks and total
-*   Multi-selection of attemps based on how strong your are on meet day
+*   CEnables users to find information on registered human services as well as emergency shelters 
+*   Used .NET to implement CRUD operations for the application.
 
 [View on Github](https://github.com/Aldarraji/2019amarilloClass)
 

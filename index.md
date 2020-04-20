@@ -2,7 +2,8 @@
 
 I am a competitive powerlifter who likes to code.
 
-
+<br>
+<br>
 
 
 ### Attempt Calculator (Web, iOS, Android)
@@ -20,15 +21,17 @@ A simple powerlifting attempt selection calculotr that is written in native tech
 View on Github: [Web](https://github.com/wajeht/web_attempt_calculator)  [iOS](https://github.com/wajeht/ios_attempt_calculator)  [Android](https://github.com/wajeht/android_attempt_calculator) 
 
 <br>
+<br>
 
-### Care Amarillo
+
+### Care Amarillo (Windows)
 ***
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Aldarraji/2019amarilloClass/master/Page1%2012_19_2019%202_37_50%20PM.png" width="200">
 </p>
 
-Purpose The purpose of this document is to define the high-level requirements of the human services and emergency shelter system named CareAmarillo in terms of the needs of the human service users. The CareAmarillo System will enable system users to find information on registered human services as well as emergency shelters.
+This is a school project I did with me and five of my other class mates where we develped  the human services and emergency shelter system named CareAmarillo in terms of the needs of the human service users. The CareAmarillo System will enable system users to find information on registered human services as well as emergency shelters.
 
 *   Calcualte wilks and total
 *   Multi-selection of attemps based on how strong your are on meet day

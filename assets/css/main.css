@@ -216,6 +216,10 @@ a:hover {
     text-decoration: none;
 }
 
+.activePage {
+    color: #ffffff !important;
+}
+
 strong,
 b {
     color: #787878;

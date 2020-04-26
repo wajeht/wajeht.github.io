@@ -358,6 +358,28 @@ pre code {
     margin: 0;
 }
 
+.blinking {
+    animation: blinkingText 1.3s infinite;
+}
+
+@keyframes blinkingText {
+    0% {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    49% {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    60% {
+        color: transparent;
+    }
+    99% {
+        color: transparent;
+    }
+    100% {
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
 /* Container */
 
 .container {

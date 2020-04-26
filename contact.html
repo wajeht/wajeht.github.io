@@ -56,39 +56,54 @@
                     id arcu magna. Accumsan orci faucibus id eu lorem semper
                     nunc nisi lorem vulputate lorem neque lorem ipsum dolor.
                 </p>
-                <form method="post" action="#">
+                <form
+                    name="gform"
+                    id="gform"
+                    enctype="text/plain"
+                    action="https://docs.google.com/forms/d/e/1FAIpQLScPj6clasdqeORmKv4YxZzV9COPB3vNW2Nv9h2XLoBHdtwlSw/formResponse?"
+                    target="hidden_iframe"
+                    onsubmit="submitted=true;"
+                >
                     <div class="row gtr-uniform gtr-50">
                         <div class="col-6 col-12-xsmall">
                             <input
                                 type="text"
-                                name="name"
-                                id="name"
+                                name="entry.249946245"
+                                id="entry.249946245"
                                 placeholder="Name"
                             />
                         </div>
                         <div class="col-6 col-12-xsmall">
                             <input
                                 type="email"
-                                name="email"
-                                id="email"
+                                name="entry.1127567432"
+                                id="entry.1127567432"
                                 placeholder="Email"
                             />
                         </div>
                         <div class="col-12">
                             <textarea
-                                name="message"
-                                id="message"
+                                name="entry.20353738"
+                                id="entry.20353738"
                                 placeholder="Message"
                                 rows="13ß"
                             ></textarea>
                         </div>
+                        <ul class="actions">
+                            <li>
+                                <input type="submit" value="Submit" />
+                            </li>
+                        </ul>
                     </div>
                 </form>
-                <ul class="actions">
-                    <li>
-                        <input type="submit" value="Send Message" />
-                    </li>
-                </ul>
+
+                <iframe
+                    name="hidden_iframe"
+                    id="hidden_iframe"
+                    style="display: none;"
+                    onload="if(submitted) {}"
+                ></iframe>
+
                 <br />
                 <br />
                 <br />
@@ -135,5 +150,24 @@
         <script src="/assets/js/breakpoints.min.js"></script>
         <script src="/assets/js/util.js"></script>
         <script src="/assets/js/main.js"></script>
+        <script type="text/javascript">
+            var submitted = false;
+        </script>
+        <script type="text/javascript">
+            var name = document.getElementById("entry.249946245").value;
+            var email = document.getElementById("entry.1127567432").value;
+            var message = document.getElementById("entry.20353738").value;
+
+            $("#gform").on("submit", function (e) {
+                if (name == "" || email == "" || message == "") {
+                    alert("Please enter all input fields!");
+                } else {
+                    $("#gform *").fadeOut(2000);
+                    $("#gform").prepend(
+                        "Your submission has been processed..."
+                    );
+                }
+            });
+        </script>
     </body>
 </html>

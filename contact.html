@@ -159,7 +159,7 @@
             var message = document.getElementById("entry.20353738").value;
 
             $("#gform").on("submit", function (e) {
-                if (name == "" || email == "" || message == "") {
+                if (name == null || email == null || message == null) {
                     alert("Please enter all input fields!");
                 } else {
                     $("#gform *").fadeOut(2000);

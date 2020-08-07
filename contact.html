@@ -160,11 +160,11 @@
             var submitted = false;
         </script>
         <script type="text/javascript">
-            var name = document.getElementById("entry.249946245").value;
-            var email = document.getElementById("entry.1127567432").value;
-            var message = document.getElementById("entry.20353738").value;
-
             $("#gform").on("submit", function (e) {
+                var name = document.getElementById("entry.249946245").value;
+                var email = document.getElementById("entry.1127567432").value;
+                var message = document.getElementById("entry.20353738").value;
+
                 if (name === "" || email === "" || message === "") {
                     alert("Please enter all input fields!");
                 } else {

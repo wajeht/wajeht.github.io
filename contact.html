@@ -172,8 +172,11 @@
                     $("#gform").prepend(
                         "Your submission has been processed..."
                     );
+                    window.removeEventListener("beforeunload");
                 }
             });
+
+            window.removeEventListener("beforeunload");
         </script>
     </body>
 </html>

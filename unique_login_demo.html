@@ -4,11 +4,27 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Wajeht: Unique Login Demo</title>
+        <style>
+            body {
+                background: black;
+            }
+
+            #video {
+                width: 85%;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+        </style>
     </head>
     <body>
-        <video width="100%" controls>
-            <source src="/images/demo.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-        </video>
+        <div id="video">
+            <video width="100%" autoplay>
+                <source src="/images/demo.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
     </body>
 </html>
